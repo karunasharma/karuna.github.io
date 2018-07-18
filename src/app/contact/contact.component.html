@@ -1,0 +1,19 @@
+
+<div class="col-sm-6">
+Name:</div><div class="col-sm-6"><input [(ngModel)]= "name"></div>
+<div class="col-sm-6">Contact No:</div><div class="col-sm-6"><input [(ngModel)]= "ContactNo"></div>
+<div class="col-sm-6">Message: </div><div class="col-sm-6"><textarea [(ngModel)]= "msg"> </textarea></div>
+
+
+<table border="1" style ="width:100%;margin-top:25px;">
+<tr>
+	<th>Name</th>
+	<th>Contact No</th>
+	<th>Message</th>
+</tr>
+<tr style ="height:22px;" >
+	<td>{{ name }}</td>
+	<td>{{ ContactNo }}</td>
+	<td>{{ msg }} </td>
+</tr>
+</table>
